@@ -1,0 +1,7 @@
+application:
+  name: us.tekschool.capstone.bdd
+  package: us.tekschool.titans.capstone.us.tekschool.capstone.bdd
+spring:
+  application:
+    name: ${application.name}
+
