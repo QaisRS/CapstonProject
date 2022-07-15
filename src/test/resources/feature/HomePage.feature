@@ -1,3 +1,4 @@
+@HomePage
 Feature: Home Page
 
   Scenario: User verify currency values change
