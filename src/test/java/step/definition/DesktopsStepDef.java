@@ -21,9 +21,9 @@ public class DesktopsStepDef extends Base {
 	@When("User click on Desktops tab")
 	public void user_click_on_Desktops_tab() {
 		desktopPage.clickonDesktopsTab();
-		//WebDriverUtility.hardWait();
 		logger.info("user clicked on Desktops tab");
 		WebDriverUtility.takeScreenShot();
+		WebDriverUtility.hardWait();
 	}
 	
 	@And("User click on Show all desktops")
@@ -62,15 +62,7 @@ public class DesktopsStepDef extends Base {
 		desktopPage.clickOnAddToCartButton();
 		logger.info("user clicked add to cart button");
 	}
-//	@Then("User should see a message {string}")
-//	public void user_should_see_a_message(String expectedSuccessMessage) {
-//		Assert.assertEquals(desktopPage.successMessage(),expectedSuccessMessage);
-//		Assert.assertTrue(desktopPage.isSuccessMessagePresent());
-//		logger.info(expectedSuccessMessage + " equals to "+desktopPage.successMessage() );
-//		WebDriverUtility.takeScreenShot();
-//		WebDriverUtility.hardWait();
 
-//	}
 	
 		@When("User select color from dropdown Red")
 		public void user_select_color_from_dropdown_red() {
@@ -78,9 +70,7 @@ public class DesktopsStepDef extends Base {
 		   
 		}
 		
-		
 
-	
 	@When("User click on write a review link")
 	public void user_click_on_write_a_review_link() {
 		desktopPage.clickOnReviewLink();

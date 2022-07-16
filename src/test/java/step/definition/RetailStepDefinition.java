@@ -71,11 +71,7 @@ public class RetailStepDefinition extends Base {
                 e.printStackTrace();
             }
     }
-//  @When("User check on About us check box")
-//  public void user_check_on_about_us_check_box() {
-//      retail.clickOnAboutUsCheckBox();
-//  
-//  }
+
     @When("User click on Continue button")
     public void user_click_on_continue_button() {
         retail.selectContinueButton();

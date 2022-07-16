@@ -13,9 +13,7 @@ public class DesktopsPageObject extends Base {
 		PageFactory.initElements(driver,this);
 	}
 	
-	// syntax for storing UI Element in POM class using PageFactory implementation
-	//@FindBy(locatorType= "Locator")
-	//AccessModifier WebElement NameOfElement;
+	
 	
 	@FindBy(xpath = "//a[text()='Desktops']")
 	private WebElement desktops;
